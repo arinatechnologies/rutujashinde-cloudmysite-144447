@@ -1,0 +1,75 @@
+---
+layout: ../_layouts/base.njk
+title: "Contact Us"
+permalink: "/contact.html"
+extra_css:
+  - "/css/style.css"
+extra_js:
+  - "/js/form-handler.js"
+---
+
+<section class="hero-section" style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 50%, var(--secondary-color) 100%); color: #fff;">
+  <div class="hero-content">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Get in Touch</h2>
+      <p>Contact us for any inquiries or custom cake orders.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <form id="contactForm"
+              class="custom-contact-form"
+              data-form-handler
+              data-api=""
+              data-from="noreply@example.com"
+              data-success="Thank you! We will get back to you soon."
+              data-error="Oops! Something went wrong."
+              data-report-label="template-form">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h3>Our Location</h3>
+        <p>123 Cake Street, Cityville</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.0063944994744!2d-74.00622378424455!3d40.71455037933013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c0ca3%3A0x494d15016932c786!2s123%20Main%20St%2C%20New%20York%2C%20NY%2010002%2C%20USA!5e0!3m2!1sen!2sus!4v1625000000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <h3>Contact Information</h3>
+        <p>Email: info@cakeshop.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <h3>Business Hours</h3>
+        <p>Monday - Friday: 9am - 5pm</p>
+        <p>Saturday: 10am - 4pm</p>
+        <p>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" style="background: var(--bg-light);">
+  <div class="container">
+    <div class="cta-card">
+      <h2>Visit Our Shop!</h2>
+      <p>We look forward to seeing you at our cake shop.</p>
+      <div class="cta-actions">
+        <a href="#" class="btn btn-primary">Get Directions</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+account_id = "d12521e2e1b9c898650c952766c9b8e2"
+workers_dev = true
+compatibility_date = "2024-07-01"
+main = "js/worker.js"  # ✅ Only define ONE entry point (either `main` OR `site.entry-point`)
+
+assets = { directory = "public", binding = "ASSETS" }
+
+[observability.logs]
+enabled = true

@@ -1,0 +1,20 @@
+{
+  "name": "cloudmysite-eleventy-bolt-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Eleventy starter that pairs with the Bolt experience and GrapesJS-ready styles.",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "cheerio": "^1.1.0",
+    "fast-glob": "^3.3.3",
+    "pretty": "^2.0.0"
+  }
+}
