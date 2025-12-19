@@ -31,4 +31,4 @@ jobs:
       - name: Deploy Worker
         run: wrangler deploy --name "${{ github.event.repository.name }}"
         env:
-          CLOUDFLARE_API_TOKEN: SYdBGD09f_VSiu1_j-UePII1hxVZDKWTRaQvDhxr
+          CLOUDFLARE_API_TOKEN: test
